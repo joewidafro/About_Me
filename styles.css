@@ -1,0 +1,82 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Adjust greeting position */
+#greeting {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px; /* Adjusts spacing below name */
+    display: block;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Content container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+/* Footer (optional) */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #007bff;
+    color: white;
+    margin-top: 30px;
+}
